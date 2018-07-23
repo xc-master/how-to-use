@@ -1,7 +1,7 @@
 <?php
 
 
-echo "test3";
+echo "develop branch";
 
 
 /* 初回コミット用 2017.08.05 */
