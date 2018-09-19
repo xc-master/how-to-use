@@ -1,8 +1,6 @@
 <?php
 
 
-echo "master に戻してpush";
-
 
 /* 初回コミット用 2017.08.05 */
 
@@ -11,3 +9,8 @@ echo "master に戻してpush";
 /* マージテスト　2017.08.05 */
 
 /* forkでの変更をマージする 2017.08.05 */
+
+$logs = 'テスト';
+
+$stdout = fopen('php://stdout', 'w');
+fwrite($stdout, '[datatrans] ' . $logs);
