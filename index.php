@@ -10,7 +10,6 @@
 
 /* forkでの変更をマージする 2017.08.05 */
 
-$logs = 'テスト';
+?>
 
-$stdout = fopen('php://stdout', 'w');
-fwrite($stdout, '[datatrans] ' . $logs);
+ロールバックテスト<br>
